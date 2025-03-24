@@ -1,5 +1,6 @@
 body{
     margin: 0;
+<<<<<<< HEAD
     background-color:#fef6e4;
 }
 .nav-bar{
@@ -8,6 +9,16 @@ body{
     text-align: center;
     padding: 30px 120px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+=======
+    background-color: #D1F8EF;
+}
+.nav-bar{
+    position: sticky;
+    top: 5px;
+    background-color: #FFF2F2;
+    text-align: center;
+    padding: 25px 15px;
+>>>>>>> ae4908e7b88b9aadebe3c532ae435570618529b5
     /*box-shadow: 1px 1px 2px 2px gray;*/
 }
 .nav-item{
@@ -15,12 +26,17 @@ body{
     text-decoration: none;
     padding: 5px 15px;
     margin: 5px 15px;
+<<<<<<< HEAD
     color: #435da5 ;
+=======
+    color: #7886C7;
+>>>>>>> ae4908e7b88b9aadebe3c532ae435570618529b5
     font-weight: 600;
     font-size: large;
     
 }
 .nav-item:hover{
+<<<<<<< HEAD
    
     color: #042275 ;
     border-radius: 5px;
@@ -29,5 +45,14 @@ body{
 }
 .on-page{
     color:#042275;
+=======
+    box-shadow: 1px 1px 2px 2px gray;
+    color: white;
+    border-radius: 5px;
+    background-color: #7886C7;
+}
+.on-page{
+    color: #2D336B;
+>>>>>>> ae4908e7b88b9aadebe3c532ae435570618529b5
     
 }
