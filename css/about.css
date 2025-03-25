@@ -1,10 +1,52 @@
 .intro-1{
     color: #172c66;
-    
+    font-size: 20px;
     text-align: center;
     padding: 30px 20px;
 }
 h2{
+    text-align:center;
+    color: #001858;   
+}
+.card{
+    display: flex; 
+    padding-left: 50px;
+}
+.mission{
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+    margin: 5px auto;
+    padding: 10px;
+    
+}
+.heading{
+    font-size: 30px;
+    text-align: center;
     color: #001858;
-    padding-left: 500px;
+}
+.about{
+    color: #172c66;
+    font-size: 20px;
+}
+.leaders{
+    display: flex;
+    flex-wrap: wrap;
+}
+.sir{
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    
+    
+}
+.img{
+    height: 150px;
+    padding-left: 700px;
+    
 }
