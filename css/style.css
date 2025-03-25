@@ -53,7 +53,48 @@ hr {
     color: #232946;
     background-color:#232946 ;
 }
+<<<<<<< HEAD
 .img{
     width: 100%;
     height: 400px;
    }
+=======
+.vintage{
+    float: right;
+    height: 250px;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+    margin-top: 90px;
+}
+.features{
+    text-align: center;
+}
+.course{
+    display: flex;
+    flex-wrap: wrap;
+}
+.jee{
+    height: 500px;
+    width: 350px;
+    border: 1px solid black;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+
+}
+.ch-img{
+    float: right;
+    height: 250px;
+    padding-top: 40px;
+}
+.card-img{
+    padding-left: 50px;
+    height: 250px;
+}
+>>>>>>> 4e042ea0db268b879b336e5b8e1b605334dc345c
