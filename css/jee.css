@@ -5,17 +5,15 @@
     padding: 30px 20px;
 }
 .logo{
-    float: right;
+    width: 100%;
 }
 .students{
-    height: 400px;
-    width: 600px;
-    border: 1px solid black;
-    margin: 10px auto;
+    width: 300px;
+    height: 500px;
+    border: 1px solid #232946;
+    margin: 10px;
     padding: 10px;
-    border-radius: 20px;
-    background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    background-color: #b8c1ea;
     
 }
 .topers{
@@ -31,4 +29,13 @@
 h2{
     text-align: center;
     color: #001858;
+}
+.c-img{
+    height: 300px;
+    padding-left: 40px; 
+}
+.c-img-1{
+    width: 250px;
+    padding-left: 20px; 
+    margin-top: 30px;
 }
