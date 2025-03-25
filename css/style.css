@@ -4,6 +4,7 @@ body{
 }
 .nav-bar{
     position: sticky;
+    top:0px;
     background-color:#232946;
     text-align: center;
     padding: 30px 20px;
@@ -47,4 +48,8 @@ footer{
     color: white;
     position: fixed;
     bottom: 0px;
+}
+hr {
+    color: #232946;
+    background-color:#232946 ;
 }

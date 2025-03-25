@@ -1,0 +1,20 @@
+.contact-info{
+    position: relative;
+    left: 40%;
+    font-weight: 10px;
+    margin: 10px 0;
+    text-decoration: none;
+    font-size: 20px;
+    color: #2D336B;
+}
+.contact-info:hover{
+    text-decoration: underline;
+    color: #2D336B;
+}
+.contact-icon{
+    position: relative;
+    left: 38%;
+    color: #2D336B;
+    font-size: 30px;
+    margin: 10px 0;
+}
