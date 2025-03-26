@@ -12,13 +12,15 @@
             margin-top: 50px;
         }
         .bt{
-            background-color: #828edf ;
-            font-size: 15px;
-            color: #232946;
-            padding: 5px 5px;
-            margin-top: 40px;
-            margin-bottom: 30px;
-            border-radius: 15px 15px;
+            background-color: black;
+            color: white;
+            display: block;
+            margin: 30px auto;
+            padding: 10px;
+            width: 150px;
+            border-radius: 10px;
+            font-size: 20px;
+
         
             
         }
@@ -28,6 +30,10 @@
       }
       form{
         text-align: center;
+    }
+    .ip{
+        border-radius: 5px;
+        padding: 6px;
     }
     </style>
 </head>
@@ -43,38 +49,38 @@
     <h1> Seat Booking Form 🎓</h1>
     <form >
         <label for="name"> Name :</label>
-        <input id="name" type="text" placeholder="First Name" required>  
-        <input type="text" placeholder="middel name" required>
-        <input type="text" placeholder="Last name" required><br><br>
+        <input class=" ip" type="text" placeholder="First Name" required>  
+        <input class=" ip" type="text" placeholder="middel name" required>
+        <input class=" ip" type="text" placeholder="Last name" required><br><br>
 
         <label>Date Of Birth:</label>
-        <input type="date" required><br><br>
+        <input class=" ip" type="date" required><br><br>
 
         <label> Phone Number:</label>
-        <input type="number" required="10 number"  placeholder="number"><br><br>
+        <input class=" ip" type="number" required="10 number"  placeholder="number"><br><br>
 
         <label>Select Gender:</label>
-        <input id="female" type="radio" name="gender" required>
-        <label for="female">female 🚺</label>
-        <input id="male" type="radio" name="gender" required>
+        <input class=" ip" id="female" type="radio" name="gender" required>
+        <label class=" ip" for="female">female 🚺</label>
+        <input  class=" ip"id="male" type="radio" name="gender" required>
         <label for="male"> male 🚹</label><br><br>
 
         <label> Aadhar Card Number:</label>
-        <input type="number" required  placeholder="aadhar card number"><br><br>
+        <input class=" ip" type="number" required  placeholder="aadhar card number"><br><br>
 
         <label> Home Address:</label>
-        <input type="text" placeholder="city" required>
-        <input type="text" placeholder="state" required>
-        <input type="number" placeholder="pin code" required><br><br>
+        <input class=" ip" type="text" placeholder="city" required>
+        <input  class=" ip"type="text" placeholder="state" required>
+        <input  class=" ip"type="number" placeholder="pin code" required><br><br>
 
         <label> E-mail:</label>
-        <input type="email" required placeholder="e-mail"><br><br>
+        <input class=" ip" type="email" required placeholder="e-mail"><br><br>
 
         <label> Select Cours You like To Study: </label>
-        <input type="checkbox" name=" branch" id="IT" />
+        <input class=" ip" type="checkbox" name=" branch" id="IT" />
       <label for="IT"> JEE Mains & Advanced</label>
 
-      <input type="checkbox" name=" branch" id="comp" />
+      <input class=" ip" type="checkbox" name=" branch" id="comp" />
       <label for="comp"> National Eligibility cum Entrance Test (NEET)</label> <br />
       
       <button class="bt" > Submit</button>
@@ -114,10 +120,10 @@
           <div class="footer_width link">
             <h2>Quick Link</h2>
             <ul>
-              <li><a href="./index.html">Home</a></li>
-              <li><a href="./pages/about.html">About Us</a></li>
-                <li><a href="./pages/contact.html">Contact</a></li>
-                <li><a href="./pages/booking.html">Booking</a></li>
+                <li><a href="./../image/">Home</a></li>
+                <li><a href="./about.html">About Us</a></li>
+                  <li><a href="./contact.html">Contact</a></li>
+                  <li><a href="./booking.html">Booking</a></li>
             </ul>
           </div>
       

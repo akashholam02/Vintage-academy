@@ -14,11 +14,13 @@
     margin: 10px;
     padding: 10px;
     background-color: #b8c1ea;
+    border-radius: 10px;
     
 }
 .topers{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    
 }
 .btn{
     margin-left: 750px;
@@ -62,12 +64,18 @@ h2{
     font-size: 30px;
 }
 .bt{
-    background-color: #828edf ;
-    font-size: 15px;
-    color: #232946;
-    padding: 5px 5px;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    border-radius: 15px 15px;
-    cursor: pointer;   
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    display: block;
+    margin: 10px auto;
+
+}
+.a{
+    text-decoration:none;
+}
+.staff{
+    border-radius: 10px;
 }
