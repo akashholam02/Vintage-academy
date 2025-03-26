@@ -9,3 +9,142 @@ h2{
         flex-direction: row;
         justify-content: space-evenly;
   }
+  .sub-head{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 50px;
+
+  }
+  
+  .item{
+width: 250px;
+height: 450px;
+border: 1px solid #232946;
+margin: 10px;
+padding: 10px;
+background-color:#fffffe;
+border-radius: 10px;
+ }
+ .img1{
+   width: 250px;
+   height: 190px;
+   border-radius: 1px;
+ }
+ .img{
+     width: 100%;
+     height: 450px;
+     border-radius: 2px;
+ }
+ .head{
+    font-size:21px;
+    color: #232946;
+    text-align: center;
+    margin-top: 30px;
+ }
+ .para{
+    padding-left: 20px;
+    padding-right: 15px;
+    font-size: 17px;
+    margin-top: 15px;
+    color: #232946;
+ }
+ .bt{
+       background-color: #eebbc3 ;
+       font-size: 15px;
+       color: #232946;
+       padding: 5px 5px;
+       margin-top: 30px;
+       margin-bottom: 20px;
+       border-radius: 15px 15px;
+       display: block;
+   margin-left: auto;
+   margin-right: auto;
+   cursor: pointer;
+    }
+   .bt:hover {
+   box-shadow: 1px 2px gray;
+   background-color: #f4dade ;
+ }
+
+ .img2{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   height: 300px;
+   width: 450px;
+ }
+ .para1{
+   margin-top: 30px;
+   margin-left: 30px;
+   margin-right: 25px;
+ }
+ .btn{
+   font-size: 20px;
+   display: block;
+   margin: 5px auto;
+   padding: 10px ;
+   background-color: black;
+   color: white;
+   border-radius: 10px;
+ }
+ .btn:hover{
+   font-size: 20px;
+   display: block;
+   background-color: white;
+   color: black;
+   transition: 0.5s;
+ }
+ .a{
+   text-decoration: none;
+ }
+
+
+
+
+@media screen and (max-width: 767px) {
+
+h1 {
+   font-size: 24px;
+   text-align: center;
+}
+
+.sub-head {
+   font-size: 18px;
+   padding: 10px;
+}
+
+.card {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.item {
+   width: 90%;
+   height: auto;
+   margin: 10px 0;
+}
+
+.img1 {
+   width: 100%;
+   height: auto;
+}
+
+.img {
+   width: 100%;
+   height: auto;
+}
+
+.img2 {
+   width: 100%;
+   height: auto;
+}
+
+.btn, .bt {
+   font-size: 16px;
+   padding: 8px;
+}
+}
+
+

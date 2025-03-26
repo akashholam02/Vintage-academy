@@ -109,42 +109,6 @@ footer{
 .contact ul li span{
     margin-right: 15px;
 }
-
-@media  screen and (max-width:700px){
-     .nav-item {
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    .footer_info{
-        flex-direction: row;
-    }
-}
-    
-
-@media screen and (max-width:992px){
-    .about , .contact {
-        width:35%;
-    }
-    .link{
-        width:30%;
-    }
-}
-    
-
-
-
-
-@media  screen and (max-width:767px){
-    .about , .contact , .link{
-        width: 100%;
-        margin-bottom: 30px;
-    }
-    .footer_info{
-        flex-direction: column;
-    }
-}
-
-
 hr {
     color: #232946;
     background-color:#232946 ;
@@ -189,3 +153,48 @@ h3{
     height: 250px;
 }
 
+
+
+@media  screen and (max-width:700px){
+     .nav-item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer_info{
+        flex-direction: row;
+    }
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-item {
+    display: block;
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    }
+    .about , .contact , .link{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer_info{
+        flex-direction: column;
+    }
+}
+
+
+    
+
+@media screen and (max-width:992px){
+    .about , .contact {
+        width:35%;
+    }
+    .link{
+        width:30%;
+    }
+}
+    
