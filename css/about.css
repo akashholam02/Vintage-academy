@@ -90,3 +90,70 @@ box-shadow: 0px 0px 2px 2px black;
     font-size: 25px;
     color:cornflowerblue;
  }
+
+
+
+
+@media screen and (max-width: 767px) {
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .nav-item {
+        display: block;
+        padding: 8px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .intro-1 {
+        font-size: 16px;
+        text-align: justify;
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 20px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .mission {
+        width: 95%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .card, .card-1 {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .imgm {
+        height: 250px;
+        width: 100%;
+    }
+
+    .img-1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .item {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .name {
+        font-size: 20px;
+    }
+
+    .para {
+        font-size: 14px;
+    }
+}
