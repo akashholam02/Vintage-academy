@@ -41,14 +41,139 @@ h1{
 
 footer{
     background-color:#232946;
-    height: 300px;
-    width: 100%;
-    text-align: center;
-    padding: 3px;
     color: white;
-    position: fixed;
-    bottom: 0px;
+    
 }
+.footer_info {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    padding: 50px 0px;
+}
+.footer_info .footer_width{
+  padding: 0px 15px;  
+}
+.footer_info h2{
+   margin-bottom: 20px; 
+}
+
+.about {
+    width: 40%;
+}
+.contact{
+    width: 40%;
+}
+.link{
+    width: 20%;
+}
+.social_media{
+    margin-top: 30px;
+}
+.social_media ul{
+    display: flex;
+}
+.social_media ul li a {
+    display: inline-block;
+    margin-right:40px;
+    width: 30px;
+    height: 30px;
+    padding-top: 6px;
+    background-color: transparent;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+.social_media ul li a:hover {
+  background-color: white;
+  color: black;
+
+}
+
+.link ul li a {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: white;
+}
+.link ul li a:hover{
+    color:black;
+}
+.contact ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    color: white;
+}
+.contact ul li a {
+    color: white;
+}
+.contact ul li span{
+    margin-right: 15px;
+}
+
+@media  screen and (max-width:700px){
+     .nav-item {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer_info{
+        flex-direction: row;
+    }
+}
+    
+
+@media screen and (max-width:992px){
+    .about , .contact {
+        width:35%;
+    }
+    .link{
+        width:30%;
+    }
+}
+    
+
+
+
+
+@media  screen and (max-width:767px){
+    .about , .contact , .link{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .footer_info{
+        flex-direction: column;
+    }
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 hr {
     color: #232946;
     background-color:#232946 ;
