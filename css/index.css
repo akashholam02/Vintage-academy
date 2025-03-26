@@ -9,6 +9,7 @@ h2{
         flex-direction: row;
         justify-content: space-evenly;
   }
+  
   .sub-head{
     font-size: 30px;
     text-align: center;
@@ -50,9 +51,9 @@ border-radius: 10px;
     color: #232946;
  }
  .bt{
-       background-color: #eebbc3 ;
+       background-color:black;
        font-size: 15px;
-       color: #232946;
+       color: white;
        padding: 5px 5px;
        margin-top: 30px;
        margin-bottom: 20px;
@@ -64,7 +65,6 @@ border-radius: 10px;
     }
    .bt:hover {
    box-shadow: 1px 2px gray;
-   background-color: #f4dade ;
  }
 
  .img2{
@@ -78,6 +78,8 @@ border-radius: 10px;
    margin-top: 30px;
    margin-left: 30px;
    margin-right: 25px;
+   font-size: 20px;
+   padding: 20px 20px;
  }
  .btn{
    font-size: 20px;

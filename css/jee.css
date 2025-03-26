@@ -11,10 +11,10 @@
 .students{
     width: 300px;
     height: 500px;
-    border: 1px solid #232946;
+    border: 1px solid  #232946;
     margin: 40px;
     padding: 5px;
-    background-color: #b8c1ea;
+    background-color:white;
     border-radius: 10px;
     
 }
@@ -54,7 +54,7 @@
     border: 1px solid #232946;
     margin: 30px;
     padding: 10px;
-    background-color: #b8c1ea;  
+    background-color: white;  
     border-radius: 10px;  
 }
 .rank{
@@ -106,13 +106,13 @@
     }
 
     .students, .staff {
-        width: 90%;
+        width: 70%;
         height: auto;
         text-align: center;
     }
 
     .c-img, .c-img-1, .c-img-2 {
-        width: 100%;
+        width: 70%;
         height: auto;
     }
 

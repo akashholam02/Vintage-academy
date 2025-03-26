@@ -54,6 +54,7 @@ width: 130px;
 @media screen and (min-width: 1200px) {
 form {
 width: 50%;
+text-align: center;
 }
 
 .bt {

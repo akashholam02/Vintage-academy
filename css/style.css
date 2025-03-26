@@ -159,6 +159,8 @@ h3{
      .nav-item {
         width: 100%;
         margin-bottom: 30px;
+        font-size:medium ;
+        font-weight: 300px;
     }
     .footer_info{
         flex-direction: row;
